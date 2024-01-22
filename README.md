@@ -16,5 +16,11 @@ We will be using ROS 2, Iron Irwini
 ## Setup multipass environment
 `multipass launch 22.04 --cpus 4 --disk 20G --memory 8G --name ros2-iron`
 
-## Setup ROS2 within your environment
-https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
+## Setup ROS 2 Development Environment
+`https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html`
+
+## Source ROS 2 Development Environment (On every Startup)
+`source /opt/ros/iron/setup.bash`
+
+## Automatically Source ROS 2 Development Environment
+`echo "source /opt/ros/iron/setup.bash" >> ~/.bashrc`
