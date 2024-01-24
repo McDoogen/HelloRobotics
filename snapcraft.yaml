@@ -14,12 +14,12 @@ parts:
     source-branch: main
 
 apps:
-  hello_robotics_subscriber:
+  hello-robotics-subscriber:
     command: opt/ros/humble/bin/ros2 run hello_robotics subscriber_node
     extensions: [ros2-humble]
-  hello_robotics_publisher:
+  hello-robotics-publisher:
     command: opt/ros/humble/bin/ros2 run hello_robotics publisher_node 
     extensions: [ros2-humble]
-  hello_robotics_hello:
+  hello-robotics-hello:
     command: opt/ros/humble/bin/ros2 run hello_robotics hello_node
     extensions: [ros2-humble]
