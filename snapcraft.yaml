@@ -10,7 +10,7 @@ base: core22
 parts:
   ros-demos:
     plugin: colcon
-    source: https://github.com/McDoogen/HelloRobotics
+    source: https://github.com/McDoogen/HelloRobotics.git
     source-branch: main
 
 apps:
