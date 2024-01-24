@@ -12,6 +12,7 @@ parts:
     plugin: colcon
     source: https://github.com/McDoogen/HelloRobotics.git
     source-branch: main
+    stage-packages: [ros-humble-ros2launch]
 
 apps:
   hello-robotics-subscriber:
