@@ -8,7 +8,7 @@ confinement: devmode
 base: core22
 
 parts:
-  ros-demos:
+  hello-robotics-demo:
     plugin: colcon
     source: https://github.com/McDoogen/HelloRobotics.git
     source-branch: main
