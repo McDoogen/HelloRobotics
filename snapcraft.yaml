@@ -17,10 +17,13 @@ parts:
 apps:
   hello-robotics-subscriber:
     command: opt/ros/humble/bin/ros2 run hello_robotics subscriber_node
+    plugs: [network, network-bind]
     extensions: [ros2-humble]
   hello-robotics-publisher:
     command: opt/ros/humble/bin/ros2 run hello_robotics publisher_node 
+    plugs: [network, network-bind]
     extensions: [ros2-humble]
   hello-robotics-hello:
     command: opt/ros/humble/bin/ros2 run hello_robotics hello_node
+    plugs: [network, network-bind]
     extensions: [ros2-humble]
