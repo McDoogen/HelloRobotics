@@ -30,3 +30,13 @@ We will be using ROS 2 [Humble](https://docs.ros.org/en/humble/index.html)
 
 # TODO
 - So how do I package these as snaps? I don't want to setup the build environment on my PI...
+- Looks like I need to build the snap itself on the PI.... :| I'll set up to build an amd version and an arm version
+- its redundant to use github as the source, if the yaml is inside the repo with the source. Maybe point to local files instead. Building will be faster.
+
+# Tasks
+- Blink an LED with a ROS Snap
+- Receive button input with a ROS Snap
+- Setup I2C : https://www.electronicwings.com/raspberry-pi/raspberry-pi-i2c
+- Setup the Controller to interact with ROS
+- Experiment with Ubuntu Frame
+- Experiment with uROS on the PI Pico
